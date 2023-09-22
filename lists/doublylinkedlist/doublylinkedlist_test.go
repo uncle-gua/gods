@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emirpasic/gods/utils"
+	"github.com/uncle-gua/gods/utils"
 )
 
 func TestListNew(t *testing.T) {
@@ -662,7 +662,7 @@ func TestListSerialization(t *testing.T) {
 	err = list.FromJSON(bytes)
 	assert()
 
-	bytes, err = json.Marshal([]interface{}{"a", "b", "c", list})
+	_, err = json.Marshal([]interface{}{"a", "b", "c", list})
 	if err != nil {
 		t.Errorf("Got error %v", err)
 	}

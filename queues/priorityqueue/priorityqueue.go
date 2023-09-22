@@ -17,9 +17,9 @@ package priorityqueue
 
 import (
 	"fmt"
-	"github.com/emirpasic/gods/queues"
-	"github.com/emirpasic/gods/trees/binaryheap"
-	"github.com/emirpasic/gods/utils"
+	"github.com/uncle-gua/gods/queues"
+	"github.com/uncle-gua/gods/trees/binaryheap"
+	"github.com/uncle-gua/gods/utils"
 	"strings"
 )
 

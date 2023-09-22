@@ -7,7 +7,7 @@ package redblacktree
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/emirpasic/gods/utils"
+	"github.com/uncle-gua/gods/utils"
 	"strings"
 	"testing"
 )

@@ -8,9 +8,10 @@ package containers
 
 import (
 	"fmt"
-	"github.com/emirpasic/gods/utils"
 	"strings"
 	"testing"
+
+	"github.com/uncle-gua/gods/utils"
 )
 
 // For testing purposes

@@ -19,9 +19,9 @@ package treebidimap
 
 import (
 	"fmt"
-	"github.com/emirpasic/gods/maps"
-	"github.com/emirpasic/gods/trees/redblacktree"
-	"github.com/emirpasic/gods/utils"
+	"github.com/uncle-gua/gods/maps"
+	"github.com/uncle-gua/gods/trees/redblacktree"
+	"github.com/uncle-gua/gods/utils"
 	"strings"
 )
 

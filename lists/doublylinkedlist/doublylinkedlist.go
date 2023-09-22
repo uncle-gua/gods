@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/emirpasic/gods/lists"
-	"github.com/emirpasic/gods/utils"
+	"github.com/uncle-gua/gods/lists"
+	"github.com/uncle-gua/gods/utils"
 )
 
 // Assert List implementation
@@ -170,7 +170,7 @@ func (list *List) Contains(values ...interface{}) bool {
 
 // Values returns all elements in the list.
 func (list *List) Values() []interface{} {
-	values := make([]interface{}, list.size, list.size)
+	values := make([]interface{}, list.size)
 	for e, element := 0, list.first; element != nil; e, element = e+1, element.next {
 		values[e] = element.value
 	}

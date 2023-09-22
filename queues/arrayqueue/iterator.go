@@ -4,7 +4,7 @@
 
 package arrayqueue
 
-import "github.com/emirpasic/gods/containers"
+import "github.com/uncle-gua/gods/containers"
 
 // Assert Iterator implementation
 var _ containers.ReverseIteratorWithIndex = (*Iterator)(nil)

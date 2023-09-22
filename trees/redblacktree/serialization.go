@@ -6,8 +6,8 @@ package redblacktree
 
 import (
 	"encoding/json"
-	"github.com/emirpasic/gods/containers"
-	"github.com/emirpasic/gods/utils"
+	"github.com/uncle-gua/gods/containers"
+	"github.com/uncle-gua/gods/utils"
 )
 
 // Assert Serialization implementation
